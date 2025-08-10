@@ -1,6 +1,8 @@
 #include "libs/alma/alma.hpp"
 #include "libs/rvmt/rvmt.hpp"
 #include "libs/pcg-cpp/pcg_random.hpp"
+#include <X11/Xatom.h>
+
 
 #include <thread>
 #include <atomic>
