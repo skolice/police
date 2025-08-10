@@ -26,9 +26,10 @@ chmod +x wraith.AppImage
 ```
 **Compiling from source:** 
 ```
-git clone https://github.com/decryller/wraith.git
-cd wraith
-g++ -std=c++17 -lX11 libs/rvmt/rvmt.cpp libs/alma/alma.cpp main.cpp -o wraith.AppImage
+git clone https://github.com/skolice/police.git
+cd police
+g++ -std=c++17 -lX11 libs/rvmt/rvmt.cpp libs/alma/alma.cpp main.cpp -o police.AppImage
+
 ```
 Make sure to erase these commands from your terminal's history.\
 **For bash**: Run `history -c` before closing the terminal / Delete them directly from `~/.bash_history`
